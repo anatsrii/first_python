@@ -1,0 +1,67 @@
+Basic Data Types: String and Number
+
+String Types
+"Hello" or 'Hello'
+Can use "" or ''
+
+Number Types
+Integer
+1234 , 0
+
+Float
+0.12345
+1.8E-15 = 1.8 x 10^15 (1.8 x 10 exalt 15)
+
+Operator: Plus
+String
+"Hello" + " " + "Jane" = "Hello Jane"
+"1" + "1" = "11"
+
+Integer & Float
+ 1 + 1 = 2
+ 1.0 + 1 = 2.0
+
+ ** String + Integer can not operate
+ 
+
+Print() = Show output on screen
+Ex 
+print("Hello") = Hello
+
+Ref: https://www.youtube.com/watch?v=kM22MXDe0GY&list=PL0ROnaCzUGB4RNc3k0LS1FSA80IjRKW7F&index=7
+
+*******************************************************
+
+Variables & Data Types
+
+first_name = Anat                        # STR
+last_name = Srisaputh                    # STR
+full_name = first_name + " " + last_name # STR
+is_single = True                         # bool
+weight = 80.5                            # float
+height = 165                             # int
+birth_date = [6,3,1987]                  # list
+print(full_name) = Anat Srisaputh
+
+a = 1 
+b = 2 
+c = 3
+a,b,c = c,a,b 
+print(a,b,c) = 3,1,2
+
+
+
+Ref: https://www.youtube.com/watch?v=AyGomsiLsu0&list=PL0ROnaCzUGB4RNc3k0LS1FSA80IjRKW7F&index=8
+
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
