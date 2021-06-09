@@ -55,6 +55,21 @@ Ref: https://www.youtube.com/watch?v=AyGomsiLsu0&list=PL0ROnaCzUGB4RNc3k0LS1FSA8
 
 ------------------------------------------------------
 
+input()
+wait for receive data from user
+
+ex 
+
+first_name = input()
+last_name = input()
+full_name = first_name + " " + last_name
+print("Hello", full_name)
+
+
+
+
+
+
 
 
 
