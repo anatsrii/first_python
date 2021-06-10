@@ -1,4 +1,4 @@
-Basic Data Types: String and Number
+Basic Data Types 
 
 String Types
 "Hello" or 'Hello'
@@ -22,6 +22,13 @@ Integer & Float
  1.0 + 1 = 2.0
 
  ** String + Integer can not operate
+
+ Bool 
+ True & False
+
+ List same same Array in javascript
+ [0,1,2,3,4,5]
+
  
 
 Print() = Show output on screen
@@ -64,6 +71,77 @@ first_name = input()
 last_name = input()
 full_name = first_name + " " + last_name
 print("Hello", full_name)
+
+
+-------------------
+
+Type conversions
+a = int()
+b = float()
+c = str()
+
+Exsample 
+a = int(1)   # a = 1
+b = int(1.9) # b = 1
+c = int (1.5 + 2.4) # c = 3
+d = int (1.5 + 2.4) # d = 3.9
+e = int("123") # e = 123
+
+----------------------------------------
+
+Module # 
+
+import math  #import module name 
+a = math.sin module.method
+b = math.cos 
+c = math.tan
+
+-----------------------------------------
+
+Build-in Functions 
+
+a = abs(-2) # absolute  a = 2
+b = round(2/3, 2) # b = 0.66666+  b = 0.67 #ตัดเอาทศนิยม 2 ตำแหน่ง
+c = max([4,1,8,2])  # c = 8 เอาตัวเลขมากสุดใน list
+d = min([4,1,8,2])  # d = 1 เอาตัวเลขน้อยสุดใน List
+e = sum([4,1,8,2])  # e = 15 เอาผลรวมทั้งหมดใน list
+f = len([4,1,8,2])  # f = 4 len คือ จำนวนสมาชิกทั้งหมดใน list
+g = str()  built-in fn 
+h = int()  built-in fn 
+j = float()  built-in fn 
+k = input()  built-in fn 
+print() built-in fn 
+
+ใช้ Function ซ้อนๆกันได้
+
+x1 = input()
+x2 = int(x1)
+x3 = abs(x2)
+x4 = 1 + x3
+x5 = str(x4)
+print("x5 = " + x5)
+
+เขียน fn ซ้อนๆกันได้เป็น
+print("x5 = " + str(1 + abs(int(input())))) # ซึ่งเอามาเขียนซ้อนกันเยอะเกินก็อ่านยาก ควรซ้อนกันให้อ่านง่ายๆ
+
+Ref: https://www.youtube.com/watch?v=8PZaKV89_L4&list=PL0ROnaCzUGB4RNc3k0LS1FSA80IjRKW7F&index=12
+
+-------------------------------------------------
+
+operator Precedence: 2 + 3 * 4 = 12 # ลำดับการคูณมาก่อนบวก
+
+ลำดับการคำนวณ จากก่อนไปหลังเป็นดังนี้
+-ในวงเล็บ
+-ยกกำลัง
+-ติดลบ
+- * / //หารปัดเศษ %หารเอาแต่เศษ  ถ้ามีหลายตัวทำจากซ้ายไปขวา
+-บวกและลบ ถ้ามีหลายตัวทำจากซ้ายไปขวา
+-ถ้าพบหลายตัวที่สำคัญเท่ากัน ให้ทำตัวซ้ายไปขวา
+()
+
+
+
+
 
 
 
