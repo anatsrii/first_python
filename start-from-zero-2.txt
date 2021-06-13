@@ -1,0 +1,38 @@
+Basic string & operations
+s = "Hello" ; t = "Python"
+x = [1,3,5,7]; y = [5,6,7,8]
+r = s + t
+z = x + y
+a = [0,1,2,3,4,5,6,7,8,9]
+#length
+print(len(s), len(r), len(x), len(z))
+output = 5 11 4 8
+
+#index
+print(s[3], x[2])
+ถ้าค่าติดลบ -1 จะเริ่มจากขวาสุดมา เช่น
+print(s[-1], s[-2], s[-3], s[-4],s[-5])
+output = o l l e H
+
+#slice
+print(s[0:3:1]) # หมายความว่า ต้องการ s ตั้งแต่ 0 ถึง ก่อน 3 โดยเพิ่มทีละ 1
+                # ความหมาย s[start:stop:step]
+output = Hell
+
+print(s[-1:-6:-1])
+output = olleH
+
+a = [0,1,2,3,4,5,6,7,8,9]
+print(a[::])
+output = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(a[1::])
+output = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(a[::2])
+output = [0, 2, 4, 6, 8]
+
+print(a[::-1])
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+สรุป list สามารถแก้ไขค่าได้ แต่สตริงไม่สามารถแก้ไขได้

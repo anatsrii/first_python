@@ -137,7 +137,33 @@ operator Precedence: 2 + 3 * 4 = 12 # ลำดับการคูณมาก
 - * / //หารปัดเศษ %หารเอาแต่เศษ  ถ้ามีหลายตัวทำจากซ้ายไปขวา
 -บวกและลบ ถ้ามีหลายตัวทำจากซ้ายไปขวา
 -ถ้าพบหลายตัวที่สำคัญเท่ากัน ให้ทำตัวซ้ายไปขวา
-()
+(ยกเว้นเลขยกกำลัง ทำชวามาซ้าย) เช่น 2**3**2 = 2**9 = 512
+*remember*
+PEMDAS: Parenthese
+        Exponential
+        Multiply
+        Divide
+        Add
+        Substract
+ตัวอย่าง
+2 * 3 + 8 / -(2 - 4) - 2**2**3
+วิธีทำ 1.  2 * 3 + 8 / -(2 - 4) - 256
+     2.  2 * 3 + 8 / 2 - 256
+     3.  6 + 8 / 2 - 256
+     4.  6 + 4 - 256
+     5.  10 - 256
+     6.  -246
+
+--------------------------------------------
+
+โจทย์ เขียนสูตรคำนวน ต่อไปนี้
+Ref: https://www.youtube.com/watch?v=TrWY0KK9pwI&list=PL0ROnaCzUGB4RNc3k0LS1FSA80IjRKW7F&index=13
+
+import math
+weight = float(input())
+height = float(input())
+BSA = 0.03330*weight**(0.6157-0.0188*math.log(weight,10))*height**0.3
+print("BSA = ",BSA)
 
 
 
