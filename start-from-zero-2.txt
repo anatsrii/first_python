@@ -36,3 +36,32 @@ print(a[::-1])
 [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 สรุป list สามารถแก้ไขค่าได้ แต่สตริงไม่สามารถแก้ไขได้
+
+---------------------------------------------
+
+split แยก string ออกเป็น list
+f = " 2  3 88 989 "
+newf = f.split()
+print(newf) # ['2', '3', '88', '989']
+
+f = " 2  3 88 989 "
+newf = f.split(,)
+print(newf) #
+
+a = input()
+b = a.split(",")
+stu_id = b[0]
+point1 = int(b[1])
+point2 = int(b[2])
+point3 = int(b[3])
+total_point = (point1 + point2 + point3)
+print("student id", stu_id, "have point", total_point)
+#output = student id 12345 have point 90
+
+-------------------------------------------------------
+
+if - else
+Ref:https://www.youtube.com/watch?v=pqptG8aLMEA&list=PL0ROnaCzUGB4RNc3k0LS1FSA80IjRKW7F&index=17
+
+
+
