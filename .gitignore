@@ -1,4 +1,6 @@
-#ignore
+#ignore files
 linklearn.txt
-.ipnb_checkpoints
-.vscode
+
+#ignore directory
+.ipnb_checkpoints/
+.vscode/
