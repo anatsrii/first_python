@@ -2,10 +2,10 @@ Basic Data Types
 
 String Types
 "Hello" or 'Hello'
-Can use "" or ''
+สามารถใช้ "" หรือ ''
 
 Number Types
-Integer
+Integer 
 1234 , 0
 
 Float
@@ -26,7 +26,7 @@ Integer & Float
  Bool 
  True & False
 
- List same same Array in javascript
+ List เหมือนกับ Array ใน javascript
  [0,1,2,3,4,5]
 
  
@@ -75,7 +75,7 @@ print("Hello", full_name)
 
 -------------------
 
-Type conversions
+Type conversions 
 a = int()
 b = float()
 c = str()
@@ -147,12 +147,13 @@ PEMDAS: Parenthese
         Substract
 ตัวอย่าง
 2 * 3 + 8 / -(2 - 4) - 2**2**3
-วิธีทำ 1.  2 * 3 + 8 / -(2 - 4) - 256
-     2.  2 * 3 + 8 / 2 - 256
-     3.  6 + 8 / 2 - 256
-     4.  6 + 4 - 256
-     5.  10 - 256
-     6.  -246
+วิธีทำ 1.  2 * 3 + 8 / -(-2) - 2**2**3
+     2.  2 * 3 + 8 / -(-2) - 256
+     3.  2 * 3 + 8 / 2 - 256
+     4.  6 + 8 / 2 - 256
+     5.  6 + 4 - 256
+     6.  10 - 256
+     7.  -246
 
 --------------------------------------------
 
